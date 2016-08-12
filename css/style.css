@@ -1,0 +1,418 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.col-padding {
+  padding: 50px 0;
+}
+
+
+/* NAVBAR */
+#navtop {
+  padding: 0 15px;
+  box-sizing: border-box;
+  box-shadow: none !important;
+}
+
+#logo-citymapper {
+  display: flex;
+  align-items: center;
+}
+
+#logo-citymapper img {
+  margin-right: 5px;
+}
+
+
+#padder {
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+
+#apple-nav {
+  background-image: url(../img/apple.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 65px;
+  width: 40px;
+  margin: 0;
+  position: relative;
+  top: 9px;
+}
+
+#location-paris {
+  margin-left: 245px;
+}
+
+
+/* HEADER */
+header {
+  height: 90vh;
+  background-color: #37AB2E;
+}
+
+
+/* SIDE PART */
+#side-part {
+  background-color: #2B8825;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+#side-part p {
+  font-size: 1.8rem;
+}
+
+#side-part a p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btn-side-part {
+  border-radius: 5px;
+  padding: 5px 0;
+  width: 180px;
+  display: inline-block;
+  background-color: #fff;
+  color: #2B8825;
+  transition: 0.2s ease;
+}
+
+.btn-side-part:hover {
+  background-color: #FFCB0A;
+}
+
+
+
+header .fa-apple, header .fa-android {
+  font-size: 1.3rem;
+}
+
+/* CENTRAL PART */
+.title {
+  font-size: 1.5rem;
+  margin: 5px 0 15px 0;
+  font-weight: bold;
+}
+
+
+#formulaire {
+  background-color: #2C8925;
+  padding: 5px 0;
+  border-radius: 7px;
+}
+
+input[type=text] {
+  background-color: white;
+  border-radius: 7px;
+  color: rgb(106, 106, 106);
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+input:focus {
+
+}
+
+input[type=text]:first-of-type {
+  margin-bottom: 5px;
+}
+
+
+input[type=text]:last-of-type {
+  margin-bottom: 0;
+}
+
+.fa-arrow-down, .fa-arrow-up {
+  color: rgb(29, 75, 34);
+}
+
+.fa-arrow-down {
+  position: relative;
+  top: 10px;
+  right: 5px;
+}
+
+.fa-chevron-down {
+  font-size: 1rem;
+}
+
+#dropdown1 {
+  background-color: #2C8925;
+}
+
+#dropdown1 a {
+  color: #fff;
+}
+
+#dropdown1 a:hover {
+  background-color: rgb(61, 117, 60);
+}
+
+
+/* TRANSPORTS */
+
+#transport {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.moyen-transport {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.moyen-transport figure {
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: center;
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #2C8925;
+  border-radius: 100px;
+  transition: 0.2s ease;
+}
+
+.moyen-transport figure:hover {
+  background-color: #267720;
+}
+
+#all-lines {
+  background-color: #2C8925;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+#all-lines:hover {
+  background-color: #267720;
+}
+
+
+/* MAP PART */
+
+#hover-map {
+  background-image: url(../img/map-paris.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90px;
+  width: 90px;
+  background-size: cover;
+  border-radius: 150px;
+  border: 7px solid #2C8925;
+  position: absolute;
+  top: 15%;
+  right: 37%;
+  transition: 0.2s ease;
+}
+
+#hover-map:hover {
+  border: 7px solid #3e9c37;
+}
+
+header iframe {
+  height: 82vh;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+/* ======= MAIN PART ======*/
+
+#main {
+  margin-bottom: 0;
+  height: 110vh;
+}
+
+.card {
+  border-radius: 7px;
+  /*overflow: hidden;*/
+  height: 70vh;
+  box-shadow: 5px 4px 0 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform:translateY(-10px);
+  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.card-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#card01 {
+  border-top: 40px solid #37AB2E;
+
+}
+
+#card01 .card-image {
+  background-image: url(../img/baltimore.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 150px;
+}
+
+#card02 .card-image{
+  background-image: url(../img/intemperies.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 190px;
+  border-radius: 7px 7px 0 0;
+}
+
+#card03 {
+  border-top: 25px solid #37AB2E;
+}
+
+#card03 .card-image {
+  background-image: url(../img/crue.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 165px;
+}
+
+
+#card04 {
+  border-top: 40px solid #37AB2E;
+}
+
+#card04 .card-image{
+  background-image: url(../img/recherche-rapide.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 150px;
+
+}
+
+.card-image figure {
+  margin: 0;
+}
+
+.date {
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.card-action {
+  border-top: none !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+#more-news {
+  font-size: 2rem;
+}
+
+
+
+/* ====== FOOTER ====== */
+footer {
+  padding: 30px 0;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer h3 {
+  font-size: 2rem;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+}
+
+footer .buttons-social a {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  margin: 0 5px;
+}
+
+#index a {
+  color: #fff;
+  text-decoration: underline;
+  padding: 0 5px;
+  font-size: 1.2rem;
+}
+
+#citys a {
+  color: rgb(181, 181, 181);
+  text-decoration: underline;
+}
+
+#citys .disabled-link {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  cursor: default;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  #hover-map {
+    top: 15%;
+    right: 32%;
+  }
+
+  #main {
+    height: 185vh;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+  header {
+    height: 110vh;
+  }
+
+  #main {
+    height: 400vh;
+  }
+
+  .card {
+    height: 85vh;
+  }
+
+}
