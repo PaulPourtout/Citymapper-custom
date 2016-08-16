@@ -18,6 +18,12 @@ body {
   padding: 0 15px;
   box-sizing: border-box;
   box-shadow: none !important;
+  background-color: #464646;
+  overflow: hidden;
+}
+
+#navtop a:hover {
+  background-color: transparent;
 }
 
 #logo-citymapper {
@@ -29,6 +35,52 @@ body {
   margin-right: 5px;
 }
 
+.header-m-logo-3Fi_ {
+    font-size: 1.12em;
+    margin-right: .15em;
+}
+.icon-m-root-3k9y {
+    display: inline-block;
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+
+#circle, #mouth {
+  fill: #37AB2E;
+}
+
+#logo-citymapper:hover #circle {
+  fill: #fff;
+}
+
+#logo-citymapper:hover #left-eye, #logo-citymapper:hover #right-eye, #logo-citymapper:hover #arrow {
+  fill: #37AB2E;
+}
+
+
+#navman01 img {
+  height: 60px;
+  position: relative;
+  top: 25px;
+  transition: 0.2s ease;
+}
+
+#navman01:hover img {
+  transform: translateY(-17px);
+}
+
+#navman02 img {
+  height: 65px;
+}
+
+#navman02 {
+  display: flex;
+  align-items: center;
+}
 
 #padder {
   box-sizing: border-box;
@@ -39,7 +91,7 @@ body {
   background-image: url(../img/apple.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 65px;
+  height: 60px;
   width: 40px;
   margin: 0;
   position: relative;
@@ -116,10 +168,11 @@ input[type=text] {
   color: rgb(106, 106, 106);
   box-sizing: border-box;
   padding: 0 10px;
+  border-bottom: none !important;
 }
 
-input:focus {
-
+input[type=text]:focus {
+box-shadow: none !important;
 }
 
 input[type=text]:first-of-type {
@@ -131,13 +184,18 @@ input[type=text]:last-of-type {
   margin-bottom: 0;
 }
 
+#arrow-container {
+  position: relative;
+  top: 35px;
+}
+
 .fa-arrow-down, .fa-arrow-up {
   color: rgb(29, 75, 34);
 }
 
 .fa-arrow-down {
   position: relative;
-  top: 10px;
+  top: -8px;
   right: 5px;
 }
 
@@ -240,6 +298,7 @@ header iframe {
 #main {
   margin-bottom: 0;
   height: 110vh;
+  background-color: #464646;
 }
 
 .card {

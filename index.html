@@ -30,476 +30,511 @@
 
   <!-- NAV BAR -->
   <div class="navbar-fixed">
-    <nav id="navtop" class="grey darken-3">
+    <nav id="navtop">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo" id="logo-citymapper"><img class="circle" src="img/favicon.ico" alt="" />Citymapper</a>
+        <a href="#" class="brand-logo" id="logo-citymapper">
+          <span class="icon-m-root-3k9y header-m-logo-3Fi_" name="logo">
+            <svg viewBox="0 0 57 57" xmlns="http://www.w3.org/2000/svg">
+              <g id="icons" fill-rule="evenodd">
+                <g id="logo">
+                  <circle id="shadow" fill-opacity=".07" cx="31" cy="32" r="24"></circle>
+                  <circle id="circle" cx="29" cy="29" r="24"></circle>
+                  <path d="M40.752 42.956c-4.765 4.158-11.456 5.478-17.46 3.439-6.008-2.04-10.455-7.136-11.613-13.306a1.35 1.35 0 0 0-1.573-1.067 1.33 1.33 0 0 0-1.083 1.55c1.334 7.112 6.465 12.99 13.39 15.34a20.39 20.39 0 0 0 4.83 1.012c5.502.473 11.062-1.275 15.303-4.975.556-.488.61-1.327.114-1.878a1.365 1.365 0 0 0-1.908-.115" id="mouth"></path>
+                  <path d="M17.338 30.34c1.186 0 2.147-.96 2.147-2.144a2.147 2.147 0 0 0-2.147-2.146 2.147 2.147 0 0 0 0 4.29z" id="left-eye"></path>
+                  <path d="M40.4 30.34c1.185 0 2.147-.96 2.147-2.144a2.147 2.147 0 0 0-2.148-2.146 2.147 2.147 0 0 0 0 4.29z" id="right-eye"></path>
+                  <path d="M30.22 29.94h-6.463c-.885 0-1.599-.739-1.599-1.643 0-.903.714-1.64 1.6-1.64l6.462.012-1.99-2.062a1.672 1.672 0 0 1 0-2.31 1.574 1.574 0 0 1 2.272 0l4.684 4.843a1.666 1.666 0 0 1 0 2.313l-4.683 4.845a1.568 1.568 0 0 1-1.137.485c-.426 0-.83-.168-1.136-.484a1.675 1.675 0 0 1 0-2.312l1.99-2.048z" id="arrow"></path>
+                </g>
+              </g>
+            </svg>
+          </span>
+          <span>
+            Citymapper
+          </span>
+
+        </a>
+
+
         <a id="location-paris" class="hide-on-med-and-down yellow-text" href="#">Paris <i class="fa fa-chevron-right"></i></a>
 
 
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#"><img src="" alt="" />something</a></li>
-          <li><a href="#"><img src="img/" alt="" />Company</a></li>
-          <li><a href="#"><figure id="apple-nav"></figure></a></li>
-          <li><a href="#"><i class="material-icons">android</i></a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-
-
-  <!-- HEADER -->
-  <header>
-    <div class="row">
-
-
-      <!-- SIDE PART -->
-      <div id="side-part" class="col s2 hide-on-med-and-down col-padding">
-
-        <!-- ROW 01 -->
-        <div class="row">
-          <div class="col s12">
-            <p class="green-text text-lighten-3">
-              Making Cities Usable
-            </p>
-          </div>
-        </div>
-
-        <!-- ROW 02 -->
-        <div class="row">
-
-
-          <!-- ROW INTERNE 01 -->
-          <div class="row">
-            <div class="col s12">
-              <a class="btn-side-part center-align" href="#"><i class="fa fa-apple"></i> iPhone</a>
-            </div>
-          </div>
-
-          <!-- ROW INTERNE 02 -->
-          <div class="row">
-            <div class="col s12">
-              <a class="btn-side-part center-align" href="#"><i class="fa fa-android"></i> Android</a>
-            </div>
-          </div>
-
-          <!-- ROW INTERNE 03 -->
-          <div class="row">
-            <div class="col s12">
-              <a class="yellow-text center-align"href="#">
-                <p>
-                  Login/Sign up
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- FIN SIDE PART -->
-
-
-        <!-- CENTRAL PART -->
-      </div>
-      <div class="col l4 m6 s12 white-text col-padding">
-        <div class="container">
-
-          <div class="row">
-            <div class="col s12">
-              <p class="center-align title">
-                Get me somewhere
+          <li>
+            <a id="navman01" href="#">
+              <img src="img/navman.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <a id="navman02" href="#">
+              <img src="img/navman2.png" alt="" />
+              <p>
+                Company
               </p>
+            </a></li>
+            <li><a href="#"><figure id="apple-nav"></figure></a></li>
+            <li><a href="#"><i class="material-icons">android</i></a></li>
+          </ul>
+
+          <ul class="sideNav" id="mobile-demo">
+            <li></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
 
-              <div class="col s12" id="formulaire">
-                <!-- FORM -->
-                <div class="col s10">
-                  <form class="" action="index.html" method="post">
-                    <input type="text" name="depart" placeholder="Getting your location...">
-                    <input type="text" name="arrivee" placeholder="End">
-                  </form>
+    <!-- HEADER -->
+    <header>
+      <div class="row">
+
+
+        <!-- SIDE PART -->
+        <div id="side-part" class="col s2 hide-on-med-and-down col-padding">
+
+          <!-- ROW 01 -->
+          <div class="row">
+            <div class="col s12">
+              <p class="green-text text-lighten-3">
+                Making Cities Usable
+              </p>
+            </div>
+          </div>
+
+          <!-- ROW 02 -->
+          <div class="row">
+
+
+            <!-- ROW INTERNE 01 -->
+            <div class="row">
+              <div class="col s12">
+                <a class="btn-side-part center-align" href="#"><i class="fa fa-apple"></i> iPhone</a>
+              </div>
+            </div>
+
+            <!-- ROW INTERNE 02 -->
+            <div class="row">
+              <div class="col s12">
+                <a class="btn-side-part center-align" href="#"><i class="fa fa-android"></i> Android</a>
+              </div>
+            </div>
+
+            <!-- ROW INTERNE 03 -->
+            <div class="row">
+              <div class="col s12">
+                <a class="yellow-text center-align"href="#">
+                  <p>
+                    Login/Sign up
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- FIN SIDE PART -->
+
+
+          <!-- CENTRAL PART -->
+        </div>
+        <div class="col l4 m6 s12 white-text col-padding">
+          <div class="container">
+
+            <div class="row">
+              <div class="col s12">
+                <p class="center-align title">
+                  Get me somewhere
+                </p>
+
+
+                <div class="col s12" id="formulaire">
+                  <!-- FORM -->
+                  <div class="col s10">
+                    <form class="" action="index.html" method="post">
+                      <input type="text" name="depart" placeholder="Getting your location...">
+                      <input type="text" name="arrivee" placeholder="End">
+                    </form>
+                  </div>
+                  <!-- INVERT -->
+                  <div class="col s2" id="arrow-container">
+                    <a href="#">
+                      <span><i class="fa fa-arrow-up"></i></span>
+                      <span><i class="fa fa-arrow-down"></i></span>
+                    </a>
+                  </div>
                 </div>
-                <!-- INVERT -->
-                <div class="col s2 valign-wrapper">
+
+                <div class="col s12 offset-">
+                  <!-- Dropdown Trigger -->
+                  <a class='dropdown-button btn z-depth-0 transparent' href='#' data-activates='dropdown1'>Now <i class="fa fa-chevron-down"></i></a>
+
+                  <!-- Dropdown Structure -->
+                  <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">Now</a></li>
+                    <li><a href="#!">Arrive</a></li>
+                    <li><a href="#!">Leave</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="divider"></div>
+            </div>
+
+            <div class="row">
+              <div class="col s12 center-align">
+                <p class="title">
+                  Transport
+                </p>
+              </div>
+              <div class="col s10 offset-s1" id="transport">
+
+                <div class="moyen-transport">
                   <a href="#">
-                    <span><i class="fa fa-arrow-up"></i></span>
-                    <span><i class="fa fa-arrow-down"></i></span>
+                    <figure style="background-image:url(img/bus.png);">
+                    </figure>
                   </a>
+                  <p>Bus</p>
+                </div>
+
+                <div class="moyen-transport">
+                  <a href="#">
+                    <figure style="background-image:url(img/cycle.png);">
+                    </figure>
+                  </a>
+                  <p>Vélib'</p>
+                </div>
+
+                <div class="moyen-transport">
+                  <a href="#">
+                    <figure style="background-image:url(img/metro.png);">
+                    </figure>
+                  </a>
+                  <p>Metro</p>
+                </div>
+
+                <div class="moyen-transport">
+                  <a href="#">
+                    <figure style="background-image:url(img/rer.png);">
+                    </figure>
+                  </a>
+                  <p>RER</p>
+                </div>
+
+                <div class="moyen-transport">
+                  <a href="#">
+                    <figure style="background-image:url(img/train.png);">
+                    </figure>
+                  </a>
+                  <p>Transilien</p>
+                </div>
+
+                <div class="moyen-transport">
+                  <a href="#">
+                    <figure style="background-image:url(img/train.png);">
+                    </figure>
+                  </a>
+                  <p>Tram</p>
                 </div>
               </div>
+            </div>
 
-              <div class="col s12 offset-">
-                <!-- Dropdown Trigger -->
-                <a class='dropdown-button btn z-depth-0 transparent' href='#' data-activates='dropdown1'>Now <i class="fa fa-chevron-down"></i></a>
+            <div class="row">
+              <div class="col s12">
+                <a href="#" id="all-lines">
+                  <p>
+                    All lines
+                  </p>
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                <!-- Dropdown Structure -->
-                <ul id='dropdown1' class='dropdown-content'>
-                  <li><a href="#!">Now</a></li>
-                  <li><a href="#!">Arrive</a></li>
-                  <li><a href="#!">Leave</a></li>
+        <!-- FIN CENTRAL PART -->
+
+
+        <!-- MAP PART -->
+        <div class="col s6 hide-on-small-only col-padding" id="padder">
+          <div class="row">
+            <div class="col s12">
+              <figure id="hover-map">
+              </figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.9472269636!2d2.277516805636674!3d48.85883773907132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1470915252835" frameborder="0" style="border:0" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <!-- FIN MAP PART -->
+      </div>
+    </header>
+    <!-- FIN HEADER -->
+
+
+    <!-- SECTION MAIN -->
+    <section id="main" class="grey darken-3">
+      <div class="row">
+        <div class="col s12">
+          <h2 class="white-text valign center">News</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+
+          <div class="col s12 m4 l3 ">
+            <div class="card" id="card01">
+              <div class="card-image">
+                <figure></figure>
+              </div>
+              <div class="card-content-container">
+
+
+                <div class="card-content">
+                  <h3>Hello, Seattle and Baltimore!</h3>
+                  <p>Seattle is our top US voted, so we had to do it sometime. And Baltimore, well, has been combined to DC to form DC-Baltimore.</p>
+                </div>
+                <div class="card-action">
+                  <p class="date grey-text text-darken-2">
+                    Jun 7
+                  </p>
+                  <a href="#">Read more <i class="fa fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3">
+            <div class="card" id="card02">
+              <div class="card-image">
+                <figure></figure>
+              </div>
+              <div class="card-content-container">
+                <div class="card-content">
+                  <h3>Intempéries et grève SNCF: le point sur la situation</h3>
+                  <p>Pour les keufs et les meufs dans le R-E-R.</p>
+                </div>
+                <div class="card-action">
+                  <p class="date grey-text text-darken-2">
+                    Jun 7
+                  </p>
+                  <a href="#">Read more <i class="fa fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3">
+            <div class="card" id="card03">
+              <div class="card-image">
+                <figure></figure>
+              </div>
+              <div class="card-content-container">
+
+
+                <div class="card-content">
+                  <h3>Crue, grève et travaux : le guide de survie du week-end</h3>
+                  <p>Pour les keufs et les meufs dans le R-E-R.</p>
+                </div>
+                <div class="card-action">
+                  <p class="date grey-text text-darken-2">
+                    Jun 7
+                  </p>
+                  <a href="#">Read more <i class="fa fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3 offset-m4">
+            <div class="card" id="card04">
+              <div class="card-image">
+                <figure></figure>
+              </div>
+              <div class="card-content-container">
+                <div class="card-content">
+                  <h3>Une recherche profondement plus rapide, plus complète</h3>
+                  <p>Pour les keufs et les meufs dans le R-E-R.</p>
+                </div>
+                <div class="card-action">
+                  <p class="date grey-text text-darken-2">
+                    Jun 7
+                  </p>
+                  <a href="#">Read more <i class="fa fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 valign center" id="more-news">
+          <a href="#" class="yellow-text">More news <i class="fa fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- FIN SECTION MAIN -->
+
+
+    <!-- FOOTER -->
+    <footer class="grey darken-4">
+      <div class="row">
+        <div class="col s12 valign center white-text">
+          <h3>Citymapper</h3>
+          <h4>The ultimate transport app</h4>
+          <div class=" row buttons-social">
+            <div class="col s12">
+              <a class="white-text yellow darken-2" href="#">
+                <i class="fa fa-apple"></i> iPhone</a>
+                <a class="white-text yellow darken-2" href="#"><i class="fa fa-android"></i> Android</a>
+              </div>
+            </div>
+            <ul id="index">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Awards</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">API</a></li>
+              <li><a href="#">Apps</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">TOS</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <h3>Our City</h3>
+            <div class="row">
+              <div class="col s12">
+
+                <ul id="citys" class="col s10 offset-s1">
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Paris</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Berlin</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">New-York</a></li>
+                  <li><a href="#" class="disabled-link">|</a></li>
+                  <li><a href="#">Brussels</a></li>
                 </ul>
               </div>
 
             </div>
-          </div>
-
-
-          <div class="row">
-            <div class="divider"></div>
-          </div>
-
-          <div class="row">
-            <div class="col s12 center-align">
-              <p class="title">
-                Transport
-              </p>
-            </div>
-            <div class="col s10 offset-s1" id="transport">
-
-              <div class="moyen-transport">
-                <a href="#">
-                  <figure style="background-image:url(img/bus.png);">
-                  </figure>
-                </a>
-                <p>Bus</p>
-              </div>
-
-              <div class="moyen-transport">
-                <a href="#">
-                  <figure style="background-image:url(img/cycle.png);">
-                  </figure>
-                </a>
-                <p>Vélib'</p>
-              </div>
-
-              <div class="moyen-transport">
-                <a href="#">
-                  <figure style="background-image:url(img/metro.png);">
-                  </figure>
-                </a>
-                <p>Metro</p>
-              </div>
-
-              <div class="moyen-transport">
-                <a href="#">
-                  <figure style="background-image:url(img/rer.png);">
-                  </figure>
-                </a>
-                <p>RER</p>
-              </div>
-
-              <div class="moyen-transport">
-                <a href="#">
-                  <figure style="background-image:url(img/train.png);">
-                  </figure>
-                </a>
-                <p>Transilien</p>
-              </div>
-
-              <div class="moyen-transport">
-                <a href="#">
-                  <figure style="background-image:url(img/train.png);">
-                  </figure>
-                </a>
-                <p>Tram</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col s12">
-              <a href="#" id="all-lines">
-                <p>
-                  All lines
-                </p>
-                <i class="fa fa-chevron-right"></i>
-              </a>
-            </div>
+            <a href="#" class="yellow-text">VOTE for our next city</a>
           </div>
         </div>
-      </div>
-
-      <!-- FIN CENTRAL PART -->
-
-
-      <!-- MAP PART -->
-      <div class="col s6 hide-on-small-only col-padding" id="padder">
-        <div class="row">
-          <div class="col s12">
-            <figure id="hover-map">
-            </figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.9472269636!2d2.277516805636674!3d48.85883773907132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1470915252835" frameborder="0" style="border:0" allowfullscreen>
-            </iframe>
-          </div>
-        </div>
-      </div>
-      <!-- FIN MAP PART -->
-    </div>
-  </header>
-  <!-- FIN HEADER -->
-
-
-  <!-- SECTION MAIN -->
-  <section id="main" class="grey darken-3">
-    <div class="row">
-      <div class="col s12">
-        <h2 class="white-text valign center">News</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col s12">
-
-        <div class="col s12 m4 l3 ">
-          <div class="card" id="card01">
-            <div class="card-image">
-              <figure></figure>
-            </div>
-            <div class="card-content-container">
-
-
-              <div class="card-content">
-                <h3>Hello, Seattle and Baltimore!</h3>
-                <p>Seattle is our top US voted, so we had to do it sometime. And Baltimore, well, has been combined to DC to form DC-Baltimore.</p>
-              </div>
-              <div class="card-action">
-                <p class="date grey-text text-darken-2">
-                  Jun 7
-                </p>
-                <a href="#">Read more <i class="fa fa-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m4 l3">
-          <div class="card" id="card02">
-            <div class="card-image">
-              <figure></figure>
-            </div>
-            <div class="card-content-container">
-              <div class="card-content">
-                <h3>Intempéries et grève SNCF: le point sur la situation</h3>
-                <p>Pour les keufs et les meufs dans le R-E-R.</p>
-              </div>
-              <div class="card-action">
-                <p class="date grey-text text-darken-2">
-                  Jun 7
-                </p>
-                <a href="#">Read more <i class="fa fa-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m4 l3">
-          <div class="card" id="card03">
-            <div class="card-image">
-              <figure></figure>
-            </div>
-            <div class="card-content-container">
-
-
-              <div class="card-content">
-                <h3>Crue, grève et travaux : le guide de survie du week-end</h3>
-                <p>Pour les keufs et les meufs dans le R-E-R.</p>
-              </div>
-              <div class="card-action">
-                <p class="date grey-text text-darken-2">
-                  Jun 7
-                </p>
-                <a href="#">Read more <i class="fa fa-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m4 l3 offset-m4">
-          <div class="card" id="card04">
-            <div class="card-image">
-              <figure></figure>
-            </div>
-            <div class="card-content-container">
-              <div class="card-content">
-                <h3>Une recherche profondement plus rapide, plus complète</h3>
-                <p>Pour les keufs et les meufs dans le R-E-R.</p>
-              </div>
-              <div class="card-action">
-                <p class="date grey-text text-darken-2">
-                  Jun 7
-                </p>
-                <a href="#">Read more <i class="fa fa-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col s12 valign center" id="more-news">
-        <a href="#" class="yellow-text">More news <i class="fa fa-chevron-right"></i></a>
-      </div>
-    </div>
-  </section>
-  <!-- FIN SECTION MAIN -->
-
-
-  <!-- FOOTER -->
-  <footer class="grey darken-4">
-    <div class="row">
-      <div class="col s12 valign center white-text">
-        <h3>Citymapper</h3>
-        <h4>The ultimate transport app</h4>
-        <div class=" row buttons-social">
-          <div class="col s12">
-            <a class="white-text yellow darken-2" href="#">
-              <i class="fa fa-apple"></i> iPhone</a>
-              <a class="white-text yellow darken-2" href="#"><i class="fa fa-android"></i> Android</a>
-            </div>
-          </div>
-          <ul id="index">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Awards</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">API</a></li>
-            <li><a href="#">Apps</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">TOS</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
-          <h3>Our City</h3>
-          <div class="row">
-            <div class="col s12">
-
-              <ul id="citys" class="col s10 offset-s1">
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">New-York</a></li>
-                <li><a href="#" class="disabled-link">|</a></li>
-                <li><a href="#">Brussels</a></li>
-              </ul>
-            </div>
-
-          </div>
-          <a href="#" class="yellow-text">VOTE for our next city</a>
-        </div>
-      </div>
-    </footer>
-    <!-- FIN FOOTER -->
-  </body>
-  </html>
+      </footer>
+      <!-- FIN FOOTER -->
+    </body>
+    </html>
